@@ -1,9 +1,11 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
 {
-    int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNmbers, prodOfTwoNumbers, quotientOfTwoNumbers;
+	cout << "CALCULATOR BY JHAS GEROCHI" << endl;
+    int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNmbers, prodOfTwoNumbers, quotientOfTwoNumbers, modOfTwoNUmbers;
     
     cout << "Enter first number: ";
     cin >> firstNumber;
@@ -16,10 +18,13 @@ int main()
     diffOfTwoNmbers = firstNumber - secondNumber;
     prodOfTwoNumbers = firstNumber * secondNumber;
     quotientOfTwoNumbers = firstNumber / secondNumber;
+    modOfTwoNUmbers = firstNumber % secondNumber; 
     // Prints sum 
     cout << endl << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
     cout << endl << firstNumber << " - " <<  secondNumber << " = " << diffOfTwoNmbers;
 	cout << endl << firstNumber << " x " <<  secondNumber << " = " << prodOfTwoNumbers;  
-	cout << endl << firstNumber << " x " <<  secondNumber << " = " << quotientOfTwoNumbers;        
-    return 0;
+	cout << endl << firstNumber << " / " <<  secondNumber << " = " << quotientOfTwoNumbers; 
+	cout << endl << firstNumber << " % " <<  secondNumber << " = " << modOfTwoNUmbers;          
+
+	    return 0;
 }
